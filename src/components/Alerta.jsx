@@ -1,6 +1,6 @@
 const Alerta = ({ msg, color }) => {
     return (
-      <div className = {⁠ alert alert-${color} ⁠} role="alert">
+      <div className = {`alert alert-${color}`} role="alert">
         {msg}
       </div>
     )
